@@ -53,4 +53,6 @@ def find_pet_by_name(pet_shop, name)
     end
 end
 
-
+# 12.
+def remove_pet_by_name()
+end
