@@ -43,4 +43,6 @@ def pets_by_breed(pet_shop, breed)
   return found
 end
 
-
+# 10.
+def find_pet_by_name()
+end
