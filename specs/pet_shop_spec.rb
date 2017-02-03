@@ -137,17 +137,17 @@ class TestPetShop < Minitest::Test
   end
 
   # 11.
-  # def test_find_pet_by_name__returns_nil
-  #   pet = find_pet_by_name(@pet_shop, "Fred")
-  #   assert_equal(nil, pet)
-  # end
-
-  # 12.
-  def test_remove_pet_by_name
-    remove_pet_by_name(@pet_shop, "Arthur")
-    pet = find_pet_by_name(@pet_shop,"Arthur")
+  def test_find_pet_by_name__returns_nil
+    pet = find_pet_by_name(@pet_shop, "Fred")
     assert_equal(nil, pet)
   end
+
+  # 12. The test first 
+  # def test_remove_pet_by_name
+  #   remove_pet_by_name(@pet_shop, "Arthur")
+  #   pet = find_pet_by_name(@pet_shop,"Arthur")
+  #   assert_equal(nil, pet)
+  # end
 
   # def test_add_pet_to_stock
   #   add_pet_to_stock(@pet_shop, @new_pet)

@@ -46,13 +46,22 @@ end
 # 10. The function should return the animal if the name is present, or return 'nil' if it isn't.
 def find_pet_by_name(pet_shop, name)
   animals = pet_shop[:pets]
-    for animal in animals
-      if animal[:name] == name
-        return animal
-      end
+  found_animal = nil
+  for animal in animals
+    if animal[:name] == name
+      found_animal = animal
     end
+  end
+
+  return found_animal
 end
 
-# 12.
-def remove_pet_by_name()
+# 12. 
+def remove_pet_by_name(pet_shop, name)
+animals = pet_shop[:pets]
+  for animal in animals
+    if animal[:name] == name
+      animal.delete
+    end
+  end
 end
