@@ -26,6 +26,7 @@ def increase_pets_sold(pet_shop, increase_by_number)
   return pet_shop[:admin][:pets_sold] += increase_by_number
 end
 
-# 7.
-def stock_count()
+# 7. This function should count the number of animals (stock_count) in the pets array
+def stock_count(pet_shop)
+  return pet_shop[:pets].count
 end
