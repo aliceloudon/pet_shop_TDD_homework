@@ -11,10 +11,7 @@ end
 # 3. For the parameter @pet_shop, return the total cash plus cash_amount
 def add_or_remove_cash(pet_shop, cash_amount)
   return pet_shop[:admin][:total_cash] += cash_amount
-  # ask someone to clarify why it is += and also whether I need to include "return"
 end
-
-# 4. For the parameter @pet_shop, return the total cash plus cash_amount
 
 # 5. For the parameter @pet_shop, return the number of pets sold
 def pets_sold(pet_shop)
@@ -71,15 +68,11 @@ def add_pet_to_stock(pet_shop, new_pet)
 end
 
 # 14.
-def customer_pet_count(customers)
-  pet_counter = 0
-    for customer in customers
-      pet_counter += customer[:pets].length
-    end
-  return pet_counter
+def customer_pet_count(customer)
+  return customer[:pets].length
 end
 
 # 15.
-def add_pet_to_customer(customer, new_pet)
+# def add_pet_to_customer(customer, new_pet)
 
-end
+# end
