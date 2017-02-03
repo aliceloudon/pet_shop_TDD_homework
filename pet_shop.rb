@@ -30,3 +30,7 @@ end
 def stock_count(pet_shop)
   return pet_shop[:pets].count
 end
+
+# 8.
+def pets_by_breed()
+end
