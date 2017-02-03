@@ -57,11 +57,17 @@ def find_pet_by_name(pet_shop, name)
 end
 
 # 12. 
-def remove_pet_by_name(pet_shop, name)
-animals = pet_shop[:pets]
-  for animal in animals
-    if animal[:name] == name
-      animal.delete
-    end
-  end
+# def remove_pet_by_name(pet_shop, name)
+#   animals = pet_shop[:pets]
+#   for animal in animals
+#     if animal[:name] == name
+#       animal.delete
+#     end
+#   end
+# end
+
+# 13.
+def add_pet_to_stock(pet_shop)
+  animals = pet_shop[:pets]
+  
 end
