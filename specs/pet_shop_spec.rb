@@ -72,7 +72,7 @@ class TestPetShop < Minitest::Test
       }
   end
 
-  # 1. For the parameter @pet_shop, return the pet shop name
+  # 1.
   def test_pet_shop_name
     name = pet_shop_name(@pet_shop)
     assert_equal("Camelot of Pets", name)
