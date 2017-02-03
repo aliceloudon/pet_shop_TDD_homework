@@ -17,6 +17,6 @@ end
 # 4. For the parameter @pet_shop, return the total cash plus cash_amount
 
 # 5. For the parameter @pet_shop, return the number of pets sold
-def pets_sold()
-  
+def pets_sold(pet_shop)
+  return pet_shop[:admin][:pets_sold]
 end
