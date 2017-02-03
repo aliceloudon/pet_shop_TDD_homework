@@ -31,6 +31,16 @@ def stock_count(pet_shop)
   return pet_shop[:pets].count
 end
 
-# 8.
-def pets_by_breed()
+# 8. Loop through the pets array (which I have defined as animals) and if breed = British Shorthair (breed), add the breed to the new array called 'found'. If breed != breed, add the breed to the array 'not_found'. Return the two arrays and the test will count how many elements are in the arrays.
+def pets_by_breed(pet_shop, breed)
+  animals = pet_shop[:pets]
+  found = []
+    for animal in animals
+      if animal[:breed] == breed
+        found << animal[:breed]
+      end
+    end
+  return found
 end
+
+
