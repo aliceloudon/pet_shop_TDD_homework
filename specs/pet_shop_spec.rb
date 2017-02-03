@@ -84,6 +84,7 @@ class TestPetShop < Minitest::Test
     assert_equal(1000, sum)
   end
 
+  # 3.
   # def test_add_or_remove_cash__add
   #   add_or_remove_cash(@pet_shop,10)
   #   cash = total_cash(@pet_shop)
