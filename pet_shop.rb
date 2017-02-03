@@ -21,6 +21,7 @@ def pets_sold(pet_shop)
   return pet_shop[:admin][:pets_sold]
 end
 
-# 6.
-def increase_pets_sold()
+# 6. Increase the pets_sold by the variable increase_by_number, then return the new value of pets_sold
+def increase_pets_sold(pet_shop, increase_by_number)
+  return pet_shop[:admin][:pets_sold] += increase_by_number
 end

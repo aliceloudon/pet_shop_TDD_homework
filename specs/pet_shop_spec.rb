@@ -112,6 +112,7 @@ class TestPetShop < Minitest::Test
     assert_equal(2, sold)
   end
 
+  # 7. 
   # def test_stock_count
   #   count = stock_count(@pet_shop)
   #   assert_equal(6, count)
